@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import ShareLocationIcon from '@mui/icons-material/ShareLocation';
 import MarkunreadIcon from '@mui/icons-material/Markunread';
 import PhoneIcon from '@mui/icons-material/Phone';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Contact = () => {
     const onSubmit = (e) => {
@@ -73,6 +74,12 @@ const Contact = () => {
                 <PhoneIcon sx={{fontSize:60,color:'white'}}/>
                 <h3 style={{"color":"#CC005F"}}>Contact Me @</h3>
                 <p>Phone: Telegram (<a style={{"color":"#CC005F"}} target="_blank" href='https://t.me/bhuvanesh0910' >bhuvi</a>)</p>
+                <p>+91 90808 85443</p>
+                </div>
+                <div className="contact-card">
+                <a style={{"color":"#CC005F"}} target="_blank" href='https://www.linkedin.com/in/bhuvanesh-sk' ><LinkedInIcon sx={{fontSize:60,color:'white'}}/></a>
+                <h3 style={{"color":"#CC005F"}}>Connect Me @</h3>
+                <p><a style={{"color":"white"}} target="_blank" href='https://www.linkedin.com/in/bhuvanesh-sk' >Bhuvanesh S</a></p>
                 </div>
                 </div>
             </div>
