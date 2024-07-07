@@ -27,7 +27,7 @@ const About =()=>{
    				</li>
    				<li>
    					<strong>Website:</strong>
-   					<span><a href="#">https://alisolanki.github.io/Portfolio/</a></span>
+   					<span><a href="#">https://bhuvanesh-portfolio.onrender.com</a></span>
    				</li>
                     <li>
                         <strong>Email:</strong>
